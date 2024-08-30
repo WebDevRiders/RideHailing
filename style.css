@@ -1,0 +1,10 @@
+
+
+/* Custom marker class for your map */
+.customMarkerClass {
+    height: 30px;
+    width: 40px;
+    background-image: url('SDK/marker.png'); /* Path to your custom marker image */
+    background-size: cover; /* Ensure the image covers the element */
+}
+

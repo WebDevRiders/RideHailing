@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ola Maps Integration</title>
+    <!-- Link to the SDK CSS file -->
+    <link href="SDK/style.css" rel="stylesheet" />
+    <!-- Link to your custom CSS (optional) -->
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="search-container" style="padding: 10px; text-align: center;">
+        <input id="search-input" type="text" placeholder="Enter address" style="width: 300px; padding: 5px;">
+        <button id="search-button" style="padding: 5px 10px;">Search</button>
+    </div>
+    <!-- Map container -->
+    <div id="map" style="width: 100%; height: 500px;"></div>
+
+    <!-- Inject the SDK JavaScript file -->
+    <script src="SDK/olamaps-js-sdk.umd.js"></script>
+    <!-- Link to your custom JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
